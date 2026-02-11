@@ -9,7 +9,7 @@ nama_file ="data_mahasiswa.txt"
 def baca_data_mahasiswa(nama_file):
     data_dict = {} #inisialisasai data dictionary
 
-    with open ("data_mahasiswa.txt","r", encoding="latin-1") as file:
+    with open (nama_file,"r", encoding="latin-1") as file:
         for baris in file:
             baris = baris.strip() #menghilangkan karakter baris baru
             nim, nama, nilai = baris.split(",") #pecah menjadi data satuan
