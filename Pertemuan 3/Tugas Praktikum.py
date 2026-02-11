@@ -89,15 +89,21 @@ class CircularSingleLinkedList:
         print("(null)")
     
     def merge(self, list2):
+        # Jika list1 kosong
         if not self.head:
             self.head = list2.head
+            self.tail = list2.tail
             return
         
-        temp = self.head
-        while temp.next:
-            temp = temp.next
+        # Jika list2 kosong
+        if not list2.head:
+            return
         
-        temp.next = list2.head
+        # Merge list2 ke list1
+        self.tail.next = list2.head
+        self.tail = list2.tail
+        self.tail.next = self.head
+
 
     
 L = CircularSingleLinkedList()
@@ -129,15 +135,31 @@ CSL1.display()
 
 #LATIHAN 4
 LL1 = CircularSingleLinkedList()
-data1 = [1, 3, 5, 7]
-for data in data1:
+x = [1, 3, 5, 7]
+for data in x:
     LL1.insert_at_end(data)
 
-# Linked List 2
 LL2 = CircularSingleLinkedList()
-data2 = [2, 4, 6, 8]
-for data in data2:
+y = [2, 4, 6, 8]
+for data in y:
     LL2.insert_at_end(data)
+
+input1 = input("Masukkan elemen untuk Linked List 1: ")
+
+if input1.strip() != "":
+    data1 = input1.split(",")
+    for data in data1:
+        LL1.insert_at_end(int(data.strip()))
+
+# Input Linked List 2
+input2 = input("Masukkan elemen untuk Linked List 2: ")
+
+if input2.strip() == "":
+    print("Masukkan elemen untuk Linked List 2: (Tidak ada elemen)")
+else:
+    data2 = input2.split(",")
+    for data in data2:
+        LL2.insert_at_end(int(data.strip()))
 
 print("Linked List 1:")
 LL1.display()
@@ -145,8 +167,8 @@ LL1.display()
 print("Linked List 2:")
 LL2.display()
 
-# Gabungkan
 LL1.merge(LL2)
 
 print("Linked List setelah digabungkan:")
 LL1.display()
+
