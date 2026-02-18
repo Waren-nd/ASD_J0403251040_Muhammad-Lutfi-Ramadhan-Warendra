@@ -172,3 +172,4 @@ LL1.merge(LL2)
 print("Linked List setelah digabungkan:")
 LL1.display()
 
+
