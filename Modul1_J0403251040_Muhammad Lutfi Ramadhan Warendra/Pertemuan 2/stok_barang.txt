@@ -1,0 +1,10 @@
+BRG001,Beras 5kg,50
+BRG002,Gula Pasir 1kg,60
+BRG003,Minyak Goreng 1L,75
+BRG004,Mie Instan,100
+BRG005,Susu UHT 1L,90
+BRG006,Telur Ayam,70
+BRG007,Mie Instan,80
+BRG008,Sarden,90
+BRG009,Roti,30
+BRG010,Garam Dapur 500g,40
