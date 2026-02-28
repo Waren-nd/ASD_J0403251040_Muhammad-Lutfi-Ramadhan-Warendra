@@ -32,7 +32,6 @@ class QueueLL:
             self.front = nodeBaru
             self.rear = nodeBaru
             return
-        
         self.rear.next = nodeBaru
         self.rear = nodeBaru 
     def dequeue(self):
