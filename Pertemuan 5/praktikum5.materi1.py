@@ -12,6 +12,8 @@
 
 def faktorial(n):
     #base case
+    #Jika n == 0, maka hasil faktorial adalah 1
+    # (karena 0! = 1)
     if n == 0:
         return 1
     #recursive case

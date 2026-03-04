@@ -26,4 +26,4 @@ print("====== Program Jumlah Data List ======")
 
 # Memanggil fungsi dengan list sebagai parameter
 # Fungsi akan menjumlahkan seluruh isi list secara rekursif
-print(jumlah_list([2, 4, 6, 8]))
+print(jumlah_list([2, 4, 6, 8])) 

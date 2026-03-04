@@ -12,15 +12,23 @@
 #=============================================================================================
 
 def hitung(n):
-
-    #base case
+    
+    # Base case:
+    # Jika n == 0, hentikan rekursi
     if n == 0:
         print("selesai")
         return
     
+    # Proses sebelum rekursi (fase masuk)
     print("Masuk:", n)
-    hitung(n-1) #recursive case
+
+    # Recursive case:
+    # Memanggil fungsi dengan n-1
+    hitung(n-1)
+
+    # Proses setelah rekursi (fase keluar)
     print("Keluar", n)
 
-print("======Program tracing======")
+
+print("====== Program Tracing ======")
 hitung(3)

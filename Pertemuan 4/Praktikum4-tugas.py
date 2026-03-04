@@ -7,6 +7,7 @@
 #=============================================================================================
 # Tugas Hands-On: Sistem Antrian Bengkel Motor
 #=============================================================================================
+
 # ------------------------------
 # Class Node
 # Merepresentasikan satu data pelanggan dalam antrian
@@ -131,6 +132,6 @@ def main():
             print("Pilihan tidak valid!")
 
 
-# Menjalankan program
+# Menjalankan program utama
 if __name__ == "__main__":
-    main()
+    main()  
