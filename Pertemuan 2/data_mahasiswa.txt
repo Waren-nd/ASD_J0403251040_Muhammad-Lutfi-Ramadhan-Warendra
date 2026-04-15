@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:Pertemuan 2/data_mahasiswa.txt
 J0403001, Alya,100
 J0403002, Bima,75
 J0403003, Citra,92
