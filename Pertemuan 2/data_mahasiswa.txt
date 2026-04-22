@@ -8,7 +8,6 @@ J0403007, Gita,90
 J0403008, Hana,77
 J0403009, Indra,84
 J0403010, Jihan,95
-========
 J0403001, Alya,100
 J0403002, Bima,75
 J0403003, Citra,92
@@ -19,4 +18,3 @@ J0403007, Gita,90
 J0403008, Hana,77
 J0403009, Indra,84
 J0403010, Jihan,95
->>>>>>>> 5e04aa4400d1526057c3fa156c16015a0a52c320:Modul1_J0403251040_Muhammad Lutfi Ramadhan Warendra/Pertemuan 2/data_mahasiswa.txt

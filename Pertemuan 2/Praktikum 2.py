@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:Pertemuan 2/Praktikum 2.py
 #===================================================================
 #Pratikum 2 : Konsep ADT dan FIle Handling (STUDI KASUS)
 #Latihan 1 : Membuat fungsi load data
@@ -327,5 +326,4 @@ def main():
             print("Pilihan tidak valid. Coba lagi")
 
 if __name__ == "__main__":
->>>>>>>> 5e04aa4400d1526057c3fa156c16015a0a52c320:Modul1_J0403251040_Muhammad Lutfi Ramadhan Warendra/Pertemuan 2/Praktikum 2.py
     main()
