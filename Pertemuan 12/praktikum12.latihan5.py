@@ -5,6 +5,7 @@
 #Praktikum 12 - Graph II: Shortest Path 
 #=============================================================================================
 # Latihan 5 : Studi Kasus dengan Program Shortest Path  
+# Algoritma : Dijkstra
 #=============================================================================================
 
 import heapq
